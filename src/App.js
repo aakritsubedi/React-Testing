@@ -1,14 +1,19 @@
 import React from 'react';
-import './App.css';
 
+import Header from './Components/Header';
 import Counter from './Components/Counter';
 
+import './assets/css/App.css';
+
 function App() {
-    return (
-        <div className="App">
-            <Counter />
-        </div>
-    );
+  return (
+    <>
+      <Header title="Counter App" />
+      <div className="App">
+        <Counter />
+      </div>
+    </>
+  );
 }
 
 export default App;
