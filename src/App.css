@@ -1,0 +1,48 @@
+.App {
+  background-color: #fafafa;
+}
+
+/* Counter */
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.mt-4 {
+  margin-top: 2em;
+  text-align: center;
+}
+.counter {
+  font-size: 5em;
+}
+.mt-4 .btn {
+  margin: 0 5px;
+}
+.text-danger {
+  color: #ff0000;
+}
+
+/* Button */
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: unset;
+}
+.btn-success {
+  background-color: #113a0e;
+}
+.btn-disabled {
+  color: #2e2e2e;
+  cursor: not-allowed;
+  background-color: #cacaca;
+}
+.btn-danger {
+  background-color: #ff0000;
+}

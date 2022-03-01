@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Component Testing Counter: renders correctly 1`] = `
+<div
+  className="wrapper"
+>
+  <h1>
+    This is counter application
+  </h1>
+  <span
+    className="counter"
+  >
+    0
+  </span>
+  <div
+    className="mt-4"
+  >
+    <button
+      className="btn btn-success"
+      onClick={[Function]}
+      title="Increment Counter"
+    >
+      Increment Counter
+    </button>
+    <button
+      className="btn btn-disabled"
+      disabled={true}
+      onClick={[Function]}
+      title="Decrement Counter"
+    >
+      Decrement Counter
+    </button>
+    
+  </div>
+</div>
+`;
